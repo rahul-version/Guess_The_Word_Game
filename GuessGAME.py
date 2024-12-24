@@ -22,7 +22,7 @@ def game():
             print("                  $$$    Congratulations You Won The Game    $$$                  ")
             break
         else:
-            print("<< Try Again >>","        ","Trie no.:", tries )       # Printing Tries Left
+            print("<< Try Again >>","        ","Trie no.:", tries )       # Printing Tries 
             tries +=1
         for i in range(len(word)):                # Using for Loop for Simplicity
             if guess[i] == word[i]:
